@@ -15,4 +15,20 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 15%);
     justify-content: center;
+    border: 2px solid black;
+}
+
+.section-a {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid black;
+}
+
+.header2 {
+    text-align:center;
+}
+
+.section-a li {
+    padding: 7px;
+    list-style:none;
 }
