@@ -24,6 +24,14 @@ html {
     border: 2px solid black;
 }
 
+.section-a ul {
+    padding-left: 0px;
+}
+
+i {
+    margin-right: auto;
+    margin-left: auto;
+}
 .header2 {
     text-align:center;
 }
@@ -31,4 +39,26 @@ html {
 .section-a li {
     padding: 7px;
     list-style:none;
+}
+
+.gains {
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+}
+
+.section-b {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: 2px solid black;
+
+}
+
+.pc-icon {
+    padding-top: 46px;
+}
+
+h2 {
+    text-align: center;
 }
