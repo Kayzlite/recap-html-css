@@ -62,3 +62,31 @@ i {
 h2 {
     text-align: center;
 }
+.section-c {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+.cities {
+    display: grid;
+    grid-template-rows: repeat(5,450px);
+    justify-content: center;
+}
+
+.cities h3 {
+    margin:auto;
+}
+
+.cities-info {
+    display: grid;
+    grid-template-rows: repeat(5, 450px);
+
+}
+
+.cities-info p {
+    margin: auto;
+}
+
+.sub1 {
+background-image: url(images/becentral.jpg);
+}
