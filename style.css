@@ -149,3 +149,39 @@ h2 {
     margin: 40px;
 }
 
+.section-d > p {
+    text-align: center;
+    
+}
+
+.section-d > h2 {
+    margin-bottom: 40px;
+}
+.conditions {
+    display: grid;
+    grid-template-columns: repeat(3, 20%);
+    justify-content: center;
+    grid-gap:45px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.conditions p {
+    font-size: 16px;
+    text-align: left;
+}
+
+.try {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.button {
+    width:600px;
+    height:72px;
+    border: 5px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+}
