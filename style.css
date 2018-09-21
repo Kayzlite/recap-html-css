@@ -1,8 +1,12 @@
 html {
     font-size: 16px;
 }
-.main {
-    text-align: center;
+
+body {
+    background-color: #245060;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .becode-logo {
@@ -11,20 +15,75 @@ html {
     display: block;
 
 }
+
+header {
+    background-color: white;
+}
+
+.nav-bar {
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-weight: bold;
+}
+
+.nav-bar a {
+    color: #245060;
+    text-decoration: none;
+}
+
+.main {
+    text-align: center;
+}
+
+.goals i {
+    color: white;
+}
+
+
 .goals {
     display: grid;
-    grid-template-columns: repeat(4, 15%);
+    grid-template-columns: repeat(4, 22%);
     justify-content: center;
-    border: 2px solid black;
+    margin-top: 60px;
+    color: white;
 }
 
-.section-a {
+
+h1 {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    color: white;
+}
+
+.header2 {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #245060;
+    border: 1px solid white;
+    width: 550px;
+    background-color: white;
+    margin-bottom: 0;
+    height: 100px;
+    text-align: center;
+}
+
+#section-a {
     display:grid;
     grid-template-columns: 50% 50%;
-    border: 2px solid black;
+    border: 2px solid white;
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+    color: #245060;
+    height: 350px;
 }
 
-.section-a ul {
+#section-a ul {
     padding-left: 0px;
 }
 
@@ -32,11 +91,8 @@ i {
     margin-right: auto;
     margin-left: auto;
 }
-.header2 {
-    text-align:center;
-}
 
-.section-a li {
+#section-a li {
     padding: 7px;
     list-style:none;
 }
@@ -47,11 +103,11 @@ i {
     margin-right: 110px;
 }
 
-.section-b {
+#section-b {
     display: flex;
     justify-content: center;
     padding: 20px;
-    border: 2px solid black;
+    color: white;
 
 }
 
@@ -61,25 +117,43 @@ i {
 
 h2 {
     text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white;
 }
-.section-c {
-    display: grid;
-    grid-template-columns: 50% 50%;
+
+.where {
+    margin-top: 80px;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
-    grid-gap: 70px;
+    color: #245060;
+    width: 500px;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 0;
+    height: 100px;
+    text-align: center;
+}
+
+#section-c {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    margin-left: auto;
+    margin-right: auto;
+    grid-gap: 0px;
+    background-color: white;
+    width: 95%;
+    justify-content: center;
 }
 
 .cities {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: auto;
 }
 
 .cities div {
     position: relative;
-    border: 1px solid black;
 }
 
 .cities h3 {
@@ -91,6 +165,7 @@ h2 {
     margin: auto;
 }
 
+
 .cities div:nth-child(1) {
     background-image: url(images/becentral.jpg);
     background-position: center;
@@ -99,6 +174,7 @@ h2 {
     background-size: cover;
     margin: 40px;
 }
+
 
 .cities div:nth-child(2) {
     background-image: url(images/genk.jpg);
@@ -139,24 +215,32 @@ h2 {
 .cities-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: auto;
+    color: #245060;
 }
 
 .cities-info div {
-    border: 1px solid black;
     width: 450px;
     height: 300px;
     margin: 40px;
 }
 
-.section-d > p {
-    text-align: center;
-    
+.cities-info a {
+    color: #245060;
 }
 
-.section-d > h2 {
+#section-d {
+    color: white;
+}
+
+#section-d > p {
+    text-align: center;
+}
+
+#section-d > h2 {
     margin-bottom: 40px;
 }
+
 .conditions {
     display: grid;
     grid-template-columns: repeat(3, 20%);
@@ -171,19 +255,58 @@ h2 {
     text-align: left;
 }
 
-.try {
+.register {
     margin: auto;
     text-align: center;
-    
 }
 
 .button {
     width:600px;
     height:72px;
-    border: 5px solid black;
+    border: 10px solid white;
     margin-left:auto;
     margin-right:auto;
     display: block;
     line-height: 70px;
     margin-top: 70px;
+}
+
+.register a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    line-height: 40px;
+}
+
+#contact-form {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.contact-header{
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #245060;
+    border: 1px solid white;
+    width: 230px;
+    background-color: white;
+    margin-bottom: 0;
+    height: 60px;
+    text-align: center;
+}
+
+#contact-form {
+    background-color: white;
+    color: #245060;
+
 }
