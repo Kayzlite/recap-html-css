@@ -229,6 +229,14 @@ h2 {
     color: #245060;
 }
 
+.map {
+    display: none;
+}
+
+iframe a {
+    display: flex;
+}
+
 #section-d {
     color: white;
 }
@@ -309,4 +317,30 @@ form {
     background-color: white;
     color: #245060;
 
+}
+
+.submit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.submit button {
+    background-color: #245060;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-weight: bolder;
+    border: 2px solid #245060
+}
+
+footer {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6, 8%);
+    margin-top: 60px;
+}
+
+footer i {
+    font-size: 30px;
+    color: white;
 }
