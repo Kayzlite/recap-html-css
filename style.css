@@ -1,13 +1,12 @@
 html {
     font-size: 16px;
-    font-family: 'Montserrat'
 }
 
 body {
     background-color: #245060;
     margin: 0;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .becode-logo {
@@ -27,12 +26,17 @@ header {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 80px;
-    font-weight: bold;
+
 }
 
 .nav-bar a {
     color: #245060;
     text-decoration: none;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .main {
@@ -166,6 +170,13 @@ h2 {
     margin: auto;
 }
 
+iframe{
+    opacity: 0;
+}
+
+iframe:hover{
+    opacity: 1;
+}
 
 .cities div:nth-child(1) {
     background-image: url(images/becentral.jpg);
@@ -175,7 +186,6 @@ h2 {
     background-size: cover;
     margin: 40px;
 }
-
 
 .cities div:nth-child(2) {
     background-image: url(images/genk.jpg);
