@@ -316,7 +316,6 @@ form {
 #contact-form {
     background-color: white;
     color: #245060;
-
 }
 
 .submit {
@@ -330,22 +329,19 @@ form {
     width: 80px;
     height: 40px;
     font-weight: bolder;
-    border: 2px solid #245060
 }
 
 footer {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(6, 8%);
-    margin-top: 60px;
+    margin-top: 120px;
 }
 
 footer i {
     font-size: 30px;
     color: white;
 }
-
-
 
 .slides {
     padding: 0;
@@ -377,9 +373,7 @@ footer i {
     height: 420px;
     display: block;
     position: absolute;
-
     transform: scale(0);
-
     transition: all .7s ease-in-out;
 }
 
@@ -396,13 +390,10 @@ footer i {
     height: 100%;
     display: none;
     position: absolute;
-
-	  opacity: 0;
+    opacity: 0;
     z-index: 9;
     cursor: pointer;
-
     transition: opacity .2s;
-
     color: #FFF;
     font-size: 156pt;
     text-align: center;
@@ -420,9 +411,7 @@ footer i {
 
 input:checked + .slide-container  .slide {
     opacity: 1;
-
     transform: scale(1);
-
     transition: opacity 1s ease-in-out;
 }
 
@@ -461,3 +450,30 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
     background: rgba(0, 0, 0, 0.8);
  }
+
+.slide img {
+    height: 150px;
+    width: 200px;
+}
+
+.sponsor-title {
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #245060;
+    width: 400px;
+    border: 1px solid white;
+    background-color: white;
+    margin-bottom: 0;
+    height: 80px;
+    text-align: center;
+}
+
+.sponsors {
+    background-color: white;
+    margin-top: 0;
+    width: 920px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
